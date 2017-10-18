@@ -22,5 +22,5 @@ feed:
 pagination: true
 ---
 
-# My Gravtastic Blog
+# NBG_dev Blog
 ## A tale of **awesomazing** adventures
