@@ -23,4 +23,4 @@ pagination: true
 ---
 
 # NBG_dev Blog
-## A tale of **awesomazing** adventures
+## something else here
