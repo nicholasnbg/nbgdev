@@ -1,0 +1,11 @@
+email: nbgdeveloper@gmail.com
+fullname: 'Nick Gray'
+title: admin
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$vHRCwEXY7ZVNmTTlh57Wl.O98Lw2xrb2TaZI7Ss39BSexJjHn/sI2
