@@ -1,5 +1,5 @@
 <?php
-date_default_timezone_set('Melbourne/Australia');
+date_default_timezone_set('Australia/Melbourne');
 ignore_user_abort(true);
 set_time_limit(0);
 
