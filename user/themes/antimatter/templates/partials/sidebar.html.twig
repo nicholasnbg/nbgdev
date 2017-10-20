@@ -18,8 +18,13 @@
 </div>
 {% endif %}
 <div class="sidebar-content">
-	<h4>{{ 'SIDEBAR.SOME_TEXT_WIDGET.HEADLINE'|t }}</h4>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+	<h4>{{ 'SIDEBAR.CURRENT_WIDGET.HEADLINE'|t }}</h4>
+	<ul>
+        <li><strong>Where:</strong> {{ 'SIDEBAR.CURRENT_WIDGET.CITY'|t }}, {{ 'SIDEBAR.CURRENT_WIDGET.COUNTRY'|t }}</li>
+        <li><strong>What am I doing:</strong> Preparing for travels</li>
+        <li><strong>What am I learning:</strong> Grav CMS, Wes Bos Node JS course</li>
+        <li><strong>Projects:</strong> My blog site</li>
+    </ul>
 </div>
 {% if config.plugins.taxonomylist.enabled %}
 <div class="sidebar-content">

@@ -13,8 +13,10 @@ en:
     RANDOM_ARTICLE:
       HEADLINE: Random Article
       FEELING_LUCKY: I'm Feeling Lucky!
-    SOME_TEXT_WIDGET:
-      HEADLINE: Some Text Widget
+    CURRENT_WIDGET:
+      HEADLINE: Current Status
+      CITY: Melbourne
+      COUNTRY: Australia 
     POPULAR_TAGS:
       HEADLINE: Popular Tags
     ARCHIVES:
