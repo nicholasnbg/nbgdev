@@ -23,4 +23,4 @@ pagination: true
 ---
 
 # NBG_dev Blog
-## something else here, another thing
+## [coding, travel].join();
