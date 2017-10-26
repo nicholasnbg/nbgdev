@@ -627,7 +627,8 @@ td {
   padding-bottom: 2rem; }
   .blog-header.blog-header-image {
     background-size: cover;
-    background-position: center; }
+    background-position: center 58%;
+    min-height: 400px; }
     .blog-header.blog-header-image h1, .blog-header.blog-header-image h2 {
       color: #FFFFFF; }
   .blog-header h1 {

@@ -5,7 +5,8 @@
 
     &.blog-header-image {
         background-size: cover;
-        background-position: center;
+        background-position: center 58%;
+        min-height: 400px;
 
         h1, h2 {
             color: $header-text;

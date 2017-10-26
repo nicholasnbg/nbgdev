@@ -1,7 +1,7 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
-	{% set blog_image = page.media['user://pages/images/blog-header.jpg'].grayscale().contrast(20).brightness(-100).colorize(-35,81,122) %}
+	{% set blog_image = page.media['user://pages/images/blog-header.jpg'].grayscale().contrast(20).brightness(-105).colorize(204,102,0) %}
 
 	{% if blog_image %}
 	<div class="flush-top blog-header blog-header-image" style="background-image: url({{ blog_image.url }});">
