@@ -14,11 +14,33 @@
   margin-top: -3rem;
 }
 
+// gives same padding to full width content as other pages
 .full-width-content {
     padding-left: 7rem;
     padding-right: 7rem;    
 }
 
+//change color of blog item links on home page
 h2.p-name a {
     color: #444;
+}
+
+//Item alignment classes 
+.image-left {
+    float: left;
+}
+
+.image-right {
+    float: right;
+}
+
+//makes blog contect div flex
+.flex-content {
+    display: flex;
+    flex-direction: column;
+}
+
+//clearfix
+.clearfix {
+    overflow: auto;
 }

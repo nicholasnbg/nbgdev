@@ -796,6 +796,19 @@ ul.pagination {
 h2.p-name a {
   color: #444; }
 
+.image-left {
+  float: left; }
+
+.image-right {
+  float: right; }
+
+.flex-content {
+  display: flex;
+  flex-direction: column; }
+
+.clearfix {
+  overflow: auto; }
+
 .modular.header-image #header {
   background-color: rgba(255, 255, 255, 0);
   box-shadow: none; }
