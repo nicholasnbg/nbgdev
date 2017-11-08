@@ -20,7 +20,7 @@ pagination: true
     </div>
     <div class="tile-container travel" onclick="window.location='http://nbgdev.com.au/blog/tag:travel'">
         <div class="tile">
-            <img src="/user/pages/01.home/travel.jpg">
+            <img src="/user/pages/01.home/Travel.jpg">
             <div class="text">
                 <h1>MY <strong>TRAVELS</strong></h1>
                     <p><a href="#">Read about my travels</a></p>
