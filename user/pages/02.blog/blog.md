@@ -2,6 +2,7 @@
 title: Home
 blog_url: blog
 body_classes: header-image fullwidth
+menu: Blog
 
 sitemap:
     changefreq: monthly

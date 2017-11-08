@@ -1,0 +1,23 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+	{% set blog_image = page.media['user://pages/images/blog-header.jpg'].grayscale().contrast(20).brightness(-105).colorize(204,102,0) %}
+
+	{% if blog_image %}
+	<div class="flush-top blog-header blog-header-image" style="background-image: url({{ blog_image.url }});">
+	{% else %}
+	<div class="blog-header">
+	{% endif %}
+	</div>
+	<div class="no-padding-width">
+	{{ page.content }}
+	</div>
+{% endblock %}
+{% block footer %}
+    <footer id="footer">
+        <div class="read-all">
+            <span><a href="../blog">Or Read It All</a></span>
+        </div>
+        <p><a href="http://getgrav.org">Grav</a> was <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by <a href="http://www.rockettheme.com">RocketTheme</a>.</p>
+    </footer>
+{% endblock %}

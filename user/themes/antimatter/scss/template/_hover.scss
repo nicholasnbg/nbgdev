@@ -1,0 +1,46 @@
+/*Used https://miketricking.github.io/bootstrap-image-hover/ for guides*/
+
+.tile-container .tile .text:before {
+    position: absolute;
+    content: '';
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+    transition: opacity 0.35s, transform 0.45s;
+    -webkit-transform: translate3d(-20px,0,0);
+    transform: translate3d(-20px,0,0);
+  }
+  
+  .tile-container .tile a, .tile-container .tile p {
+    color: #FFF;
+     opacity: 0;
+     filter: alpha(opacity=0);
+     -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+     transition: opacity 0.35s, transform 0.45s;
+     -webkit-transform: translate3d(-10px,0,0);
+     transform: translate3d(-10px,0,0);
+  }
+  
+  .tile-container .tile:hover img, .hovered .tile  img {
+     opacity: 0.75;
+     filter: alpha(opacity=60);
+     -webkit-transform: scale(1);
+     -ms-transform: scale(1);
+     transform: scale(1);
+     filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.7" /><feFuncG type="linear" slope="0.7" /><feFuncB type="linear" slope="0.7" /></feComponentTransfer></filter></svg>#filter');
+    filter: brightness(0.85);
+    -webkit-filter: brightness(0.85);
+  
+  }
+  
+  .tile-container .tile:hover .tile-container .text:before,
+  .tile-container .tile .hovered .tile-container .text:before,
+  .tile-container .tile:hover a, .tile-container .text:hover p,
+  .hovered .tile a, .hovered .text p {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+  
+  

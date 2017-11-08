@@ -49,3 +49,106 @@ h2.p-name a {
     height: 150px;
     width: 40%;
 }
+
+//No padding on bottom of body
+.bot-pad-none #body {
+    padding-bottom: 0;
+}
+
+//Read all button on home page
+#footer{
+    .read-all {
+		position: absolute;
+		bottom: $footer-height - 1rem;
+		text-align: center;
+		left: 0;
+		right: 0;
+		span {
+			font-size: 1.7rem;
+			line-height: 2.5rem;
+            background: $footer-bg;
+            color: white;
+			width: auto;
+            height: 2rem;
+            padding: 0 1rem;
+			border-radius: $border-radius;
+			display: inline-block;
+            text-align: top;
+            
+            a {
+                color: white;
+            }
+		}
+	}
+}
+
+
+//Home page tiles
+.home-tiles {
+    height: 69vh;
+    display: flex;
+
+    .tile-container{
+        display: flex;
+        width: 50%;
+
+        .tile{
+            height: 100%;
+            width: 100%;
+            float: left;
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+
+            img{
+                height: 100%;
+                width:100%;
+                -webkit-transform: scale(1.08);
+                -ms-transform: scale(1.08);
+                transform: scale(1.08);
+                display: block;
+                position: relative;
+                -webkit-transition: all 0.35s;
+                transition: all 0.35s;
+            }
+        }
+        .text {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            overflow: hidden;
+            top: 0;
+            left: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+
+            h1{
+                text-transform: uppercase;
+                color: #fff;
+                position: relative;
+                font-size: 3rem;
+                background-color: transparent;
+                text-align: left;
+            }
+            p{
+                margin-top: 0;
+                margin-left: 5px;
+                max-width:50%;
+                font-weight: 120%;
+                font-size: 1.2em;
+                opacity: 0;
+                filter: alpha(opacity=0);
+                background-color:transparent;
+                -webkit-transition:all .2s ease-in-out;
+                transition:all .2s ease-in-out;
+            }
+        }
+    }
+
+}
+
+
+
