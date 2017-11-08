@@ -9,7 +9,7 @@ menu: Home
 pagination: true
 ---
 <div class="home-tiles">
-    <div class="tile-container tech" onclick="window.location='http://nbgdev.com.au/blog/tag:coding'">
+    <div class="tile-container tech" onclick="window.location='http://nbgdev.com.au/blog/tag:Coding'">
         <div class="tile">
             <img src="/user/pages/01.home/tech.jpg">
             <div class="text">
