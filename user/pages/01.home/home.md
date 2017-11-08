@@ -11,7 +11,7 @@ pagination: true
 <div class="home-tiles">
     <div class="tile-container tech" onclick="window.location='http://nbgdev.com.au/tag:coding'">
         <div class="tile">
-            <img src="/nbgdev/user/pages/01.home/tech.jpg">
+            <img src="/user/pages/01.home/tech.jpg">
             <div class="text">
                 <h1>MY <strong>TECH</strong></h1>
                     <p><a href="#">Read about my journey as a developer</a></p>
@@ -20,7 +20,7 @@ pagination: true
     </div>
     <div class="tile-container travel" onclick="window.location='http://nbgdev.com.au/tag:travel'">
         <div class="tile">
-            <img src="/nbgdev/user/pages/01.home/travel.jpg">
+            <img src="/user/pages/01.home/travel.jpg">
             <div class="text">
                 <h1>MY <strong>TRAVELS</strong></h1>
                     <p><a href="#">Read about my travels</a></p>
