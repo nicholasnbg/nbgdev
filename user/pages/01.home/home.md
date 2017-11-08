@@ -18,9 +18,9 @@ pagination: true
             </div>
         </div>
     </div>
-    <div class="tile-container travel" onclick="window.location='http://nbgdev.com.au/blog/tag:travel'">
+    <div class="tile-container travel" onclick="window.location='http://nbgdev.com.au/blog/tag:Travel'">
         <div class="tile">
-            <img src="/user/pages/01.home/Travel.jpg">
+            <img src="/user/pages/01.home/travel.jpg">
             <div class="text">
                 <h1>MY <strong>TRAVELS</strong></h1>
                     <p><a href="#">Read about my travels</a></p>
