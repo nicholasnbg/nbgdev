@@ -1,7 +1,7 @@
 ---
 title: Pics
 blog_url: blog
-body_classes: header-image fullwidth
+body_classes: header-image fullwidth pics-page
 template: default
 
 

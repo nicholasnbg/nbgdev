@@ -931,6 +931,10 @@ h2.p-name a {
     border: #999 solid 1px;
     background: #fff; }
 
+@media (max-width: 960px) {
+  .pics-page .full-width-content {
+    padding: 0, 1rem; } }
+
 /*Used https://miketricking.github.io/bootstrap-image-hover/ for guides*/
 .tile-container .tile .text:before {
   position: absolute;
