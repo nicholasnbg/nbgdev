@@ -841,12 +841,13 @@ h2.p-name a {
   display: flex; }
   @media (max-width: 960px) {
     .home-tiles {
-      flex-direction: column; }
-      .home-tiles .tile-container {
-        width: 100%; } }
+      flex-direction: column; } }
   .home-tiles .tile-container {
     display: flex;
     width: 50%; }
+    @media (max-width: 960px) {
+      .home-tiles .tile-container {
+        width: 100%; } }
     .home-tiles .tile-container .tile {
       height: 100%;
       width: 100%;

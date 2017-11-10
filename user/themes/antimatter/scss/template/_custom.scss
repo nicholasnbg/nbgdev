@@ -89,14 +89,14 @@ h2.p-name a {
     display: flex;
     @media(max-width: 960px){
         flex-direction: column;
-        .tile-container {
-            width: 100%;
-        }
     }
 
     .tile-container{
         display: flex;
         width: 50%;
+        @media(max-width: 960px){
+            width: 100%;
+        }
 
         .tile{
             height: 100%;
