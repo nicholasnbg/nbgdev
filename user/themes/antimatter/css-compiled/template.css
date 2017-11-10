@@ -839,6 +839,11 @@ h2.p-name a {
 .home-tiles {
   height: 69vh;
   display: flex; }
+  @media (max-width: 960px) {
+    .home-tiles {
+      flex-direction: column; }
+      .home-tiles .tile-container {
+        width: 100%; } }
   .home-tiles .tile-container {
     display: flex;
     width: 50%; }
