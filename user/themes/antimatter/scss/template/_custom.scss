@@ -89,6 +89,7 @@ h2.p-name a {
     display: flex;
     @media(max-width: 960px){
         flex-direction: column;
+        height: auto;
     }
 
     .tile-container{

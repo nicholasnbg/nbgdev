@@ -841,7 +841,8 @@ h2.p-name a {
   display: flex; }
   @media (max-width: 960px) {
     .home-tiles {
-      flex-direction: column; } }
+      flex-direction: column;
+      height: auto; } }
   .home-tiles .tile-container {
     display: flex;
     width: 50%; }
