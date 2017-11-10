@@ -13,7 +13,7 @@ pagination: true
         <img src="/user/pages/images/yotei1.jpg" alt="Mt Yotei">
         <span class="text">Our first good look at Yotei from town.</span>
     </div>
-    <div class="image">
+    <div class="image large">
         <img src="/user/pages/images/renient-yotei.jpg" alt="Renient Lodge and Yotei">
         <span class="text">Our staff accommodation + Yotei</span>        
     </div>
