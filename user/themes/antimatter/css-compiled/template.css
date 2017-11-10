@@ -855,6 +855,9 @@ h2.p-name a {
       overflow: hidden;
       position: relative;
       cursor: pointer; }
+      @media (max-width: 960px) {
+        .home-tiles .tile-container .tile {
+          height: 50%; } }
       .home-tiles .tile-container .tile img {
         height: 100%;
         width: 100%;

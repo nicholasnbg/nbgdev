@@ -105,6 +105,9 @@ h2.p-name a {
             overflow: hidden;
             position: relative;
             cursor: pointer;
+            @media(max-width: 960px){
+                height: 50%;
+            }
 
             img{
                 height: 100%;
