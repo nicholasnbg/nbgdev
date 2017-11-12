@@ -16,7 +16,11 @@ en:
     CURRENT_WIDGET:
       HEADLINE: Current Status
       CITY: Hirafu Village, Hokkaido 
-      COUNTRY: Japan 
+      COUNTRY: Japan
+      DOING: Killing time, exploring the town.
+      LEARNING: Colt Steel Web Development Udemy course, specifically the Node and Express sections.
+      PROJECTS: My blog site
+
     POPULAR_TAGS:
       HEADLINE: Popular Tags
     ARCHIVES:
