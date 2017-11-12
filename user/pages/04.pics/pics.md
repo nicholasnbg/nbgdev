@@ -15,7 +15,11 @@ pagination: true
     </div>
     <div class="image large">
         <a rel="lightbox" data-width="1280" data-height="800" href="/user/pages/images/renient-yotei.jpg"><img title="Yotei" src="/user/pages/images/renient-yotei.jpg" /></a>
-        <span class="text">Our staff accommodation + Yotei</span>     
+        <span class="text">Our staff accommodation + Yotei</span>
+    </div>
+    <div class="image large">
+        <a rel="lightbox" data-width="1280" data-height="800" href="/user/pages/images/first-snow.jpg"><img title="Yotei" src="/user/pages/images/first-snow.jpg" /></a>
+        <span class="text">Morning after first snowfall!</span>
     </div>   
 </div>
 

@@ -734,6 +734,9 @@ ul.pagination {
   margin-top: 5rem;
   text-align: center; }
 
+.blog-full-image {
+  height: 350px; }
+
 #error {
   text-align: center;
   display: flex;
