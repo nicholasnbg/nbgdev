@@ -154,6 +154,9 @@ h2.p-name a {
                 background-color:transparent;
                 -webkit-transition:all .2s ease-in-out;
                 transition:all .2s ease-in-out;
+                @media(max-width: 960px){
+                    display: none;
+                }
             }
         }
     }
