@@ -629,6 +629,9 @@ td {
     background-size: cover;
     background-position: center 58%;
     min-height: 33vh; }
+    @media (max-width: 960px) {
+      .blog-header.blog-header-image {
+        min-height: 20vh; } }
     .blog-header.blog-header-image h1, .blog-header.blog-header-image h2 {
       color: #FFFFFF; }
   .blog-header h1 {

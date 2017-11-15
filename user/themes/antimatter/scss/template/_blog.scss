@@ -7,6 +7,9 @@
         background-size: cover;
         background-position: center 58%;
         min-height: 33vh;
+        @media(max-width: 960px){
+            min-height: 20vh;
+        }
 
         h1, h2 {
             color: $header-text;
