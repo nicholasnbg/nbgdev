@@ -10,6 +10,10 @@
 	color: $footer-text;
 	text-align: center;
 
+	@media(max-width: 960px){
+		position: relative;
+	}
+
 	a:hover {
 		color: #fff;
 	}
