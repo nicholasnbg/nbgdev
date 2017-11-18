@@ -21,5 +21,9 @@ pagination: true
         <a rel="lightbox" data-width="1280" data-height="800" href="/user/pages/images/first-snow.jpg"><img title="Yotei" src="/user/pages/images/first-snow.jpg" /></a>
         <span class="text">Morning after first snowfall!</span>
     </div>   
+    <div class="image large">
+        <a rel="lightbox" data-width="1280" data-height="800" href="/user/pages/images/sunny-hirafu-yotei.jpg"><img title="Yotei" src="/user/pages/images/sunny-hirafu-yotei.jpg" /></a>
+        <span class="text">View of Yotei from town, still can't see the top!</span>
+    </div>   
 </div>
 
