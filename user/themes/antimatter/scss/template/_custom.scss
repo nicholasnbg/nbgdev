@@ -186,6 +186,8 @@ h2.p-name a {
     display: flex;
     flex-direction: column;
     max-height: 100%;
+    border: 1px solid #444;
+    box-shadow: 5px 5px 5px #444;
 
     &.large{
         grid-column: (span 2);
@@ -203,7 +205,6 @@ h2.p-name a {
         align-items: center;
         height: auto;
         padding: 15px;
-        border: #999 solid 1px;
         background: #fff;
     }
 }
